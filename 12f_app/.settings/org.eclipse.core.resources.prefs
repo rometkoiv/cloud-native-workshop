@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+encoding//src/main/resources/db/migration/V1.0.0__create_stock_table.sql=UTF-8
