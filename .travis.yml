@@ -1,0 +1,12 @@
+language: java
+before_script: cd 12f_app
+script: mvn clean install
+deploy:
+  edge: true
+  provider: cloudfoundry
+  username: rometkoiv@gmail.com
+  api: https://api.run.pivotal.io
+  organization: romet
+  space: development
+  password:
+    secure: qrkoFdnwQ9jxzW1JsZgX0yn/bzcS7wgqZvzeyNE5ZlGD/15FCH4YCJeVIPmH2pdnaf0S2mdIMkuweH7Y1yCqUH9cTeks50hgeHqhAXkL5U+/JlhTtmW3vGx3xqzb5DtsanwhYiMrOphR2m+hGwN4SjTA8mdDzKNEbEdlmzh/8QjJaIZjx4qZ6kgXwGgCqfpZ3VVThpGqoaPg9wu/JWvc8fLqq3u6ytny4HDH352X80kIbuKhf2Uj5eZD5f/qSmwIoRwECnwWi1xd8/AAS+tUMTEkj8ZrnCB1m+2bPwi7NNMk5zz6UXYDGeppFbW8cokwldV35ctrN9lQlG66/We71rHc3CPGQ00qCIzPHdu5+C2rS9Ii5s4L0VxwIqb8CXLwpGSl0KbjxgOFr5RYYwD4ODaGvABD1YwFavdtwHZEAcMvCQZCUAhlaU/I9GqFIFdnf7Q62wSiRrJH2V1ehNzCUXm7FVdp2mmH9QoslaJF7o5QCzuZURbd/YvVilnN8UdOKBaOMevHiVnSAl4LpI8CYzIcLmr72aUbncn1igAmNiXEQ6Bb6tZtJkg7iesuIY4mA/5f3dG8MFqHflwTCqt0aTtMIMz/cExbuzTxIonMU1AlJ2VN4wEuFcJ8REYlWKIP0GnCx3n+eRYSc+F3UV6NZY5ZclI94SYe/I53M/6BuR0=
