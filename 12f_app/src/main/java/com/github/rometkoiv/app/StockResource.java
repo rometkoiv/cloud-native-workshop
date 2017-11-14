@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.github.rometkoiv.app.domain.model.StockItem;
 import com.github.rometkoiv.app.repository.StockItemRepository;
 
-@RefreshScope
+// @RefreshScope
 @RestController
 @RequestMapping(value = "/stock", produces = MediaType.APPLICATION_JSON_VALUE)
 public class StockResource {
