@@ -5,4 +5,5 @@ applications:
   services:
   - my-db
   - my-redis
-  eureka.client.serviceUrl.defaultZone: https://esimene-eureka.cfapps.io/eureka
+  env:
+    eureka.client.serviceUrl.defaultZone: https://esimene-eureka.cfapps.io/eureka
