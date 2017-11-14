@@ -6,7 +6,7 @@ applications:
   - my-db
   - my-redis
   env:
-  - spring.application.name: 12f-app
-  - spring.cloud.config.uri: https://esimene-config-app.cfapps.io
-  - management.security.enabled: false
+    spring.application.name: 12f-app
+    spring.cloud.config.uri: https://esimene-config-app.cfapps.io
+    management.security.enabled: false
   
